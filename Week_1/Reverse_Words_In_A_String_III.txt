@@ -1,0 +1,44 @@
+string reverseWords(string s)
+{
+    int firstPointer =0;
+    int secondPointer = 0;
+    int pointerOfFirstLetterOfWord =0;
+    while (firstPointer < s.size())
+    {
+        
+        
+        
+        
+        
+        while(secondPointer<s.size() -1&& s[secondPointer] !=' ')
+        {
+            secondPointer++;
+            
+        }
+        pointerOfFirstLetterOfWord = secondPointer;
+        if(secondPointer!=s.size()-1)
+        secondPointer--; //adjust
+        char temp =' ';
+
+//Use only two pointers
+//Can make a for loop 
+        while(firstPointer<=secondPointer)
+        {
+            
+            temp = s[firstPointer];
+            s[firstPointer] =s[secondPointer];
+            s[secondPointer]=temp;
+            firstPointer++;
+            secondPointer--;
+        }
+        
+        firstPointer = pointerOfFirstLetterOfWord+1;
+        secondPointer = firstPointer;
+        
+        
+        
+        
+    }
+    
+    return s;
+}

@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Reverse_Vowels_Of_A_String",
+            "request": "launch",
+            "mainClass": "Reverse_Vowels_Of_A_String",
+            "projectName": "Week_1_70a883af"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Reverse_Words_In_A_String_III",
+            "request": "launch",
+            "mainClass": "Reverse_Words_In_A_String_III",
+            "projectName": "Week_1_70a883af"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Friend_Circles",
+            "request": "launch",
+            "mainClass": "Friend_Circles",
+            "projectName": "Week_1_70a883af"
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false
+        }
+    ]
+}
